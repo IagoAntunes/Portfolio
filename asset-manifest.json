@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/iagoantunes.github.io/PortfolioWeb/static/css/main.bce5dfa2.css",
+    "main.css": "/iagoantunes.github.io/PortfolioWeb/static/css/main.1423bbbc.css",
     "main.js": "/iagoantunes.github.io/PortfolioWeb/static/js/main.004e860d.js",
     "static/js/787.2af39c6f.chunk.js": "/iagoantunes.github.io/PortfolioWeb/static/js/787.2af39c6f.chunk.js",
     "static/media/imgProjectPokedex.png": "/iagoantunes.github.io/PortfolioWeb/static/media/imgProjectPokedex.3cddc334d5affa49ed0a.png",
@@ -37,12 +37,12 @@
     "static/media/nav-icon1.svg": "/iagoantunes.github.io/PortfolioWeb/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/arrow2.svg": "/iagoantunes.github.io/PortfolioWeb/static/media/arrow2.b3d03e1b04ec1904a5658aea5776433c.svg",
     "static/media/arrow1.svg": "/iagoantunes.github.io/PortfolioWeb/static/media/arrow1.1088f8313e5637897aff2414e5938141.svg",
-    "main.bce5dfa2.css.map": "/iagoantunes.github.io/PortfolioWeb/static/css/main.bce5dfa2.css.map",
+    "main.1423bbbc.css.map": "/iagoantunes.github.io/PortfolioWeb/static/css/main.1423bbbc.css.map",
     "main.004e860d.js.map": "/iagoantunes.github.io/PortfolioWeb/static/js/main.004e860d.js.map",
     "787.2af39c6f.chunk.js.map": "/iagoantunes.github.io/PortfolioWeb/static/js/787.2af39c6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bce5dfa2.css",
+    "static/css/main.1423bbbc.css",
     "static/js/main.004e860d.js"
   ]
 }
