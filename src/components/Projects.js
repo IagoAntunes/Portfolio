@@ -31,7 +31,7 @@ export const Projects = () => {
     },
     {
       title: "Elegant Mail App",
-      description: "Send a message is a gift for your partner",
+      description: "Send a message and a gift for your partner",
       imgUrl: projImg3,
     },
     {
