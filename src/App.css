@@ -13,19 +13,15 @@
 	src: url('./assets/font/CentraNo2-Book.ttf');
 	font-weight: 400;
 }
-
 /************ Default Css ************/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
-  scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
-
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -34,45 +30,37 @@ body {
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
-
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
 }
-
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
   line-height: normal;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 img {
   width: 100%;
   height: auto;
 }
-
 button {
   border: 0;
   background-color: transparent;
 }
-
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
 		padding: 0 150px;
 	}
 }
-
 p.success {
 	color: green;
 }
-
 p.danger {
 	color: red;
 }
@@ -297,7 +285,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-
 /************ as Css ************/
 .skill {
   padding: 0 0 50px 0;
@@ -330,9 +317,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
-.skill-slider .item h5 {
-  
-}
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -340,7 +324,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
-
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -466,7 +449,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
-
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -538,7 +520,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
-
 /************ Footer Css ************/
 .footer {
   display: flex;
@@ -549,7 +530,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .footer p {
   font-weight: 400;
   font-size: 14px;
