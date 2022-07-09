@@ -1,16 +1,17 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/imgProjectPokedex.png";
-import projImg2 from "../assets/img/imgProjectFisiotherapp.png";
-import projImg3 from "../assets/img/imgProjectLove.png";
-import projImg4 from "../assets/img/imgProjectFashion.png";
+import projImgPokedex from "../assets/img/imgProjectPokedex.png";
+import projImgFisio from "../assets/img/imgProjectFisiotherapp.png";
+import projImgLove from "../assets/img/imgProjectLove.png";
+import projImgFashion from "../assets/img/imgProjectFashion.png";
 
-import projImg5 from "../assets/img/imgProjectLifeAt.png";
-import projImg6 from "../assets/img/imgProjectLol.png";
-import projImg7 from "../assets/img/imgProjectPomodoro.png";
+import projImgLifeAt from "../assets/img/imgProjectLifeAt.png";
+import projImgLol from "../assets/img/imgProjectLol.png";
+import projImgPomo from "../assets/img/imgProjectPomodoro.png";
 
-import projImg8 from "../assets/img/imgProjectNLW.png";
-import projImg9 from "../assets/img/imgProjectBookStore.png";
+import projImgSchool from "../assets/img/imgProjectNLW.png";
+import projImgBook from "../assets/img/imgProjectBookStore.png";
+import projImgBank from "../assets/img/imgProjectNubank.svg";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -22,51 +23,71 @@ export const Projects = () => {
     {
       title: "Pokedex App",
       description: "Pokedex App Developed in Xamarin Forms",
-      imgUrl: projImg1,
+      imgUrl: projImgPokedex,
+      linkGit: 'https://github.com/IagoAntunes/Pokedex'
     },
     {
       title: "Fisiotherapp",
       description: "Help patients with physical therapy exercises!",
-      imgUrl: projImg2,
+      imgUrl: projImgFisio,
+      linkGit: 'https://github.com/IagoAntunes/Fisiotherapp'
     },
     {
       title: "Elegant Mail App",
       description: "Send a message and a gift for your partner",
-      imgUrl: projImg3,
+      imgUrl: projImgLove,
+      linkGit: 'https://github.com/IagoAntunes/CorreioElegante'
     },
     {
       title: "Fashion Shop App",
       description: "Women's clothing app",
-      imgUrl: projImg4,
+      imgUrl: projImgFashion,
+      linkGit: 'https://github.com/IagoAntunes/FashionShop'
     },
-    
+    {
+    title: "Finance App",
+    description: "Finance home app screen",
+    imgUrl: projImgBank,
+    linkGit: 'https://github.com/IagoAntunes/AppNubank'
+    },
+      //IagoAntunesFerreira
   ];
   const projectsDesktop = [
     {
+      title: "Login League of Legends",
+      description: "League of Legends Login Screen",
+      imgUrl: projImgLol,
+      linkGit: 'https://github.com/IagoAntunes/LoginLOL'
+    },
+    {
       title: "LifeAt Desktop",
       description: "Desktop application inspired by LifeAt Developer's Website with Windows Forms",
-      imgUrl: projImg5,
+      imgUrl: projImgLifeAt,
+      linkGit: 'https://github.com/IagoAntunes/LifeAt'
     },
     {
       title: "Pomodoro Technique",
       description: "Application of the pomodoro technique in a Desktop environment using Windows Forms",
-      imgUrl: projImg7,
+      imgUrl: projImgPomo,
+      linkGit: 'https://github.com/IagoAntunes/Pomodoro'
     }
   ];
   const projectsWeb = [
     {
       title: "School Web",
       description: "Proffy is a Web and Mobile application designed to help connect students and teachers",
-      imgUrl: projImg8,
+      imgUrl: projImgSchool,
+      linkGit: 'https://github.com/IagoAntunes/DevSchool-NLW'
     },
     {
       title: "BookStore",
       description: "Web application that simulates a book registration system using ASP.NET",
-      imgUrl: projImg9,
+      imgUrl: projImgBook,
+      linkGit: 'https://github.com/IagoAntunes/BookStore'
     }
   ];
   
-
+  //IagoAntunesFerreira
   return (
     <section className="project" id="project">
       <Container>
@@ -142,4 +163,4 @@ export const Projects = () => {
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
-}
+}  //IagoAntunesFerreira

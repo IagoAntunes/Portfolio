@@ -46,7 +46,7 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
-
+  //IagoAntunesFerreira
   return (
     <section className="banner" id="home">
       <Container>
@@ -77,3 +77,4 @@ export const Banner = () => {
     </section>
   )
 }
+  //IagoAntunesFerreira
