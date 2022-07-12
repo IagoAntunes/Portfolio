@@ -9,8 +9,8 @@ import projImgLifeAt from "../assets/img/imgProjectLifeAt.png";
 import projImgLol from "../assets/img/imgProjectLol.png";
 import projImgPomo from "../assets/img/imgProjectPomodoro.png";
 
-import projImgSchool from "../assets/img/imgProjectNLW.png";
-import projImgBook from "../assets/img/imgProjectBookStore.png";
+import projImgSchool from "../assets/img/imgProjectProffy.png";
+import projImgBook from "../assets/img/imgProjectGuess.png";
 import projImgBank from "../assets/img/imgProjectNubank.svg";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -80,10 +80,10 @@ export const Projects = () => {
       linkGit: 'https://github.com/IagoAntunes/DevSchool-NLW'
     },
     {
-      title: "BookStore",
-      description: "Web application that simulates a book registration system using ASP.NET",
+      title: "Guess My Number",
+      description: "Number guessing game powered by JavaScript",
       imgUrl: projImgBook,
-      linkGit: 'https://github.com/IagoAntunes/BookStore'
+      linkGit: 'https://github.com/IagoAntunes/GuessMyNumber'
     }
   ];
   
