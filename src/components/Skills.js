@@ -49,16 +49,16 @@ export const Skills = () => {
                                 <h5>Xamarin</h5>
                             </div>
                             <div className="item">
+                                <img src={iconSkill3} alt="Image" />
+                                <h5>React</h5>
+                            </div>
+                            <div className="item">
                                 <img src={iconSkill6} alt="Image" />
                                 <h5>SQLServer</h5>
                             </div>
                             <div className="item">
                                 <img src={iconSkill2} alt="Image" />
                                 <h5>JavaScript</h5>
-                            </div>
-                            <div className="item">
-                                <img src={iconSkill3} alt="Image" />
-                                <h5>React</h5>
                             </div>
                             <div className="item">
                                 <img src={iconSkill5} alt="Image" />
